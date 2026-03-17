@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Miata ITB &amp; ECU — Dylan Bergen</title>
+  <link rel="stylesheet" href="../css/style.css">
+</head>
+<body>
+
+  <nav class="nav">
+    <div class="nav-inner">
+      <a href="../index.html" class="nav-logo">Dylan<span>.</span>Bergen</a>
+      <button class="nav-toggle" aria-label="Toggle navigation"><span></span><span></span><span></span></button>
+      <ul class="nav-links">
+        <li><a href="../index.html" class="active">Projects</a></li>
+        <li><a href="../about.html">About</a></li>
+      </ul>
+    </div>
+  </nav>
+
+  <header class="project-hero">
+    <div class="container">
+      <a href="../index.html" class="project-back">&larr; All Projects</a>
+      <h1>Miata ITB &amp; Standalone ECU</h1>
+      <p class="hero-description">
+        Adapted motorcycle individual throttle bodies to a Miata engine by machining the 
+        stock intake manifold on a Bridgeport and TIG welding the throttle bodies in place. 
+        Integrated a Megasquirt 2 standalone ECU with a custom sensor harness and performed 
+        both real-time and data-based engine tuning.
+      </p>
+      <div class="project-hero-meta">
+        <div class="hero-meta-item">
+          <span class="hero-meta-label">Platform</span>
+          <span class="hero-meta-value">Mazda Miata</span>
+        </div>
+        <div class="hero-meta-item">
+          <span class="hero-meta-label">ECU</span>
+          <span class="hero-meta-value">Megasquirt 2</span>
+        </div>
+        <div class="hero-meta-item">
+          <span class="hero-meta-label">Disciplines</span>
+          <span class="hero-meta-value">Machining, Welding, Calibration</span>
+        </div>
+      </div>
+    </div>
+  </header>
+
+  <section class="project-content">
+    <div class="container">
+
+      <h2>Intake Manifold Fabrication</h2>
+      <p>
+        The stock Miata intake manifold was machined on a Bridgeport mill to accept motorcycle 
+        individual throttle bodies. The throttle bodies were then TIG welded to the machined 
+        manifold, creating a bolt-on ITB setup using the factory mounting points.
+      </p>
+      <div class="project-gallery">
+        <div class="project-gallery-item">
+          <span class="project-card-placeholder">manifold-machining.jpg</span>
+        </div>
+        <div class="project-gallery-item">
+          <span class="project-card-placeholder">itb-welding.jpg</span>
+        </div>
+        <div class="project-gallery-item">
+          <span class="project-card-placeholder">itb-installed.jpg</span>
+        </div>
+      </div>
+
+      <h2>ECU Integration</h2>
+      <p>
+        The Megasquirt 2 was a plug-and-play base unit, but the ITB conversion required additional 
+        sensors. I fabricated a custom wiring harness for a throttle position sensor, manifold air 
+        temperature sensor, and wideband O2 sensor — integrating them into the existing engine 
+        harness.
+      </p>
+
+      <h2>Calibration</h2>
+      <p>
+        Engine tuning was done through a combination of real-time adjustment (live on the car) 
+        and data-based tuning using logged sensor data. This involved building fuel and ignition 
+        maps from scratch to match the new intake configuration, targeting both drivability and 
+        performance across the full RPM range.
+      </p>
+
+      <h2>Data Acquisition</h2>
+      <p>
+        Experience with AiM and MoTeC data acquisition systems for motorsport data collection 
+        and analysis, including logging and review of engine parameters, chassis data, and 
+        driver inputs.
+      </p>
+
+      <h2>What This Project Demonstrates</h2>
+      <table class="spec-table">
+        <tr><td>Machining</td><td>Manual mill work on a Bridgeport to modify a production casting</td></tr>
+        <tr><td>Welding</td><td>TIG welding dissimilar components to a machined surface</td></tr>
+        <tr><td>Electronics</td><td>Standalone ECU wiring, sensor integration, harness fabrication</td></tr>
+        <tr><td>Calibration</td><td>Real-time and data-driven engine map development</td></tr>
+        <tr><td>Systems</td><td>End-to-end integration: mechanical, electrical, software, validation</td></tr>
+      </table>
+
+    </div>
+  </section>
+
+  <footer class="footer">
+    <div class="container">
+      <div class="footer-inner">
+        <div class="footer-contact">
+          <a href="mailto:dylantbergen@gmail.com">dylantbergen@gmail.com</a>
+          <a href="https://linkedin.com/in/dylanbergen" target="_blank" rel="noopener">LinkedIn</a>
+        </div>
+        <span class="footer-copy">&copy; 2026 Dylan Bergen</span>
+      </div>
+    </div>
+  </footer>
+
+  <script src="../js/main.js"></script>
+</body>
+</html>
